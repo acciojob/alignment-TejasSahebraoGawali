@@ -1,35 +1,36 @@
-/*  your css code here. If applicable */
-
 body {
-    padding: 0;
-    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-table,
-td {
-    border: 1px solid black;
-    /* border-collapse: collapse; */
-}
-
-
-#t12 {
+h1 {
     text-align: center;
 }
 
-#t13 {
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.middle td,
+.middle th {
+    border: 1px solid black;
+    padding: 5px;
+    spacing: 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
     text-align: right;
 }
 
-#green {
+.green {
     background-color: green;
 }
 
-#blue {
+.blue {
     background-color: blue;
-}
-
-#t-image {
-    justify-content: center;
-    /* align-items: center; */
-    align-content: center;
 }

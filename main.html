@@ -8,81 +8,78 @@
 </head>
 
 <body>
-    <!-- the entire body must be written by student -->
-    <h1>HTML Assignment #3</h1>
 
+<h1>HTML Assignment #3</h1>
 
-    <!-- table 1 -->
-    <table class="middle" id="table-1" width=100%>
-        <tr>
-            <td id="t11">left</td>
-            <td id="t12">center</td>
-            <td id="t13">right</td>
-        </tr>
-        <tr>
-            <td id="t11">left</td>
-            <td id="t12">center</td>
-            <td id="t13">right</td>
-        </tr>
-        <tr>
-            <td id="t11">left</td>
-            <td id="t12">center</td>
-            <td id="t13">right</td>
-        </tr>
-    </table>
-    <br><br>
+<!-- ✅ TABLE 1 -->
+<table class="middle" id="table-1">
+    <tr>
+        <td id="t11">left</td>
+        <td id="t12" class="center">center</td>
+        <td id="t13" class="right">right</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td class="center">center</td>
+        <td class="right">right</td>
+    </tr>
+    <tr>
+        <td>left</td>
+        <td class="center">center</td>
+        <td class="right">right</td>
+    </tr>
+</table>
 
-    <!-- table 2  -->
-    <table class="middle" id="table-2" width=100%>
-        <tr>
-            <td colspan="6" id="t21"></td>
-        </tr>
-        <tr>
-            <td rowspan="4"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td rowspan="2" colspan="3"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <td colspan="6" </td>
-        </tr>
-    </table>
-    <br><br>
+<!-- ✅ TABLE 2 -->
+<table class="middle" id="table-2">
 
-    <!-- table 3  -->
-    <table class="middle" id="table-3" width=100%>
-        <tr>
-            <td id="green" colspan="3"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td id="t-image">
-                <img
-                    src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg">
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td id="blue" colspan="3"></td>
-        </tr>
-    </table>
+    <tr>
+        <td id="t21" colspan="6"></td>
+    </tr>
 
-    <script type="text/javascript" src="./script.js">
-    </script>
+    <!-- 5 more rows, 6 columns each -->
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+
+</table>
+
+<!-- ✅ TABLE 3 -->
+<table class="middle" id="table-3">
+
+    <!-- First green row -->
+    <tr class="green">
+        <td colspan="3"></td>
+    </tr>
+
+    <!-- Middle row with image -->
+    <tr>
+        <td></td>
+        <td id="t-image">
+            <img src="https://i.pinimg.com/originals/7c/88/27/7c88279e67cad457604543d3fbf4db17.jpg"
+                 width="300px">
+        </td>
+        <td></td>
+    </tr>
+
+    <!-- Last blue row -->
+    <tr class="blue">
+        <td colspan="3"></td>
+    </tr>
+
+</table>
 
 </body>
 
