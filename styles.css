@@ -12,10 +12,9 @@ table {
     margin: 20px auto;
 }
 
-.middle td,
-.middle th {
-    border: 1px solid black;
-    padding: 1px;
+td, th {
+    border: 1px solid black !important;
+    padding: 1px !important;
 }
 
 .center {
