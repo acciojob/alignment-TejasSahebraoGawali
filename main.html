@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>HTML Assignment 3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="practice.css">
 </head>
-
 <body>
+
     <h1>HTML Assignment #3</h1>
 
     <!-- TABLE 1 -->
@@ -31,13 +33,14 @@
 
     <!-- TABLE 2 -->
     <table class="middle" id="table-2" width="100%">
-        <!-- Row 1 -->
+        <!-- Row 1: single cell spanning 6 -->
         <tr>
             <td colspan="6" id="t21"></td>
         </tr>
 
         <!-- Row 2 -->
         <tr>
+            <!-- left column spanning 4 rows -->
             <td rowspan="4"></td>
             <td></td>
             <td></td>
@@ -49,6 +52,7 @@
         <!-- Row 3 -->
         <tr>
             <td></td>
+            <!-- a cell spanning 3 columns and 2 rows -->
             <td rowspan="2" colspan="3"></td>
             <td></td>
         </tr>
@@ -56,6 +60,7 @@
         <!-- Row 4 -->
         <tr>
             <td></td>
+            <!-- after the rowspan/colspan expansion we need to fill remaining cells so each row totals 6 -->
             <td></td>
         </tr>
 
@@ -66,7 +71,7 @@
             <td></td>
         </tr>
 
-        <!-- Row 6 -->
+        <!-- Row 6: bottom full-width -->
         <tr>
             <td colspan="6"></td>
         </tr>
@@ -82,7 +87,9 @@
         <tr>
             <td></td>
             <td id="t-image">
-                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg">
+                <img
+                    src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"
+                    alt="example image">
             </td>
             <td></td>
         </tr>
