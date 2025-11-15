@@ -1,102 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <title>HTML Assignment 3</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="practice.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>HTML Assignment 3</title>
 </head>
+
 <body>
-
-    <h1>HTML Assignment #3</h1>
-
-    <!-- TABLE 1 -->
-    <table class="middle" id="table-1" width="100%">
-        <tr>
-            <td id="t11">left</td>
-            <td id="t12" class="center">center</td>
-            <td id="t13" class="right">right</td>
-        </tr>
-        <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
-        </tr>
-        <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <!-- TABLE 2 -->
-    <table class="middle" id="table-2" width="100%">
-        <!-- Row 1: single cell spanning 6 -->
-        <tr>
-            <td colspan="6" id="t21"></td>
-        </tr>
-
-        <!-- Row 2 -->
-        <tr>
-            <!-- left column spanning 4 rows -->
-            <td rowspan="4"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-
-        <!-- Row 3 -->
-        <tr>
-            <td></td>
-            <!-- a cell spanning 3 columns and 2 rows -->
-            <td rowspan="2" colspan="3"></td>
-            <td></td>
-        </tr>
-
-        <!-- Row 4 -->
-        <tr>
-            <td></td>
-            <!-- after the rowspan/colspan expansion we need to fill remaining cells so each row totals 6 -->
-            <td></td>
-        </tr>
-
-        <!-- Row 5 -->
-        <tr>
-            <td></td>
-            <td colspan="3"></td>
-            <td></td>
-        </tr>
-
-        <!-- Row 6: bottom full-width -->
-        <tr>
-            <td colspan="6"></td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <!-- TABLE 3 -->
-    <table class="middle" id="table-3" width="100%">
-        <tr>
-            <td class="green" colspan="3"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td id="t-image">
-                <img
-                    src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"
-                    alt="example image">
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <td class="blue" colspan="3"></td>
-        </tr>
-    </table>
+	<h1   style="text-align:center">HTML Assignment #3</h1>
+	<table id="table-1"  border class="middle" >
+		<thead>
+			
+		</thead>
+		<tbody>
+			<tr>
+				<td id="t11">1</td>
+				<td class="center" id="t12">2</td>
+				<td class="right" id="t13">3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td class="center">5</td>
+				<td class="right">6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td class="center">8</td>
+				<td class="right">9</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<table border class="middle" id="table-2">
+		
+		<tbody>
+			<tr>
+				<td colspan="6" id="t21">1</td>
+			</tr>
+			<tr>
+				<td rowspan="4">1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td rowspan="2" colspan="3">3</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td colspan="6">1</td>
+				
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<table border class="middle" id="table-3">
+		<tbody>
+			<tr><td style="background-color:green"></td></tr>
+			<tr><td id="t-image"><img title="img" src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td></tr>
+			<tr><td style="background-color:blue"></td></tr>
+		</tbody>
+	</table>
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
